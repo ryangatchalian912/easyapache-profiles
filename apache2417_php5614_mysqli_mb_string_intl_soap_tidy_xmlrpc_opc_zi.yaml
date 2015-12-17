@@ -86,7 +86,7 @@
 "Cpanel::Easy::EAccelerator": 0
 "Cpanel::Easy::IonCubeLoader": 0
 "Cpanel::Easy::ModBandwidth": 0
-"Cpanel::Easy::ModJk": 0
+"Cpanel::Easy::ModJk": 1
 "Cpanel::Easy::ModJk5": 0
 "Cpanel::Easy::ModMono": 0
 "Cpanel::Easy::ModMono2": 0
@@ -96,7 +96,9 @@
 "Cpanel::Easy::ModSec": 1
 "Cpanel::Easy::PHP5": 1
 "Cpanel::Easy::PHP5::3_29": 0
-"Cpanel::Easy::PHP5::5_26": 1
+"Cpanel::Easy::PHP5::4_45": 0
+"Cpanel::Easy::PHP5::5_30": 0
+"Cpanel::Easy::PHP5::6_14": 1
 "Cpanel::Easy::PHP5::Bcmath": 1
 "Cpanel::Easy::PHP5::Bz2": 0
 "Cpanel::Easy::PHP5::CGI": 0
@@ -119,13 +121,13 @@
 "Cpanel::Easy::PHP5::HardPHP": 0
 "Cpanel::Easy::PHP5::Iconv": 0
 "Cpanel::Easy::PHP5::Imap": 1
-"Cpanel::Easy::PHP5::Intl": 0
+"Cpanel::Easy::PHP5::Intl": 1
 "Cpanel::Easy::PHP5::Java": 0
 "Cpanel::Easy::PHP5::MM": 0
 "Cpanel::Easy::PHP5::MagicQuotes": 0
 "Cpanel::Easy::PHP5::MailHeaders": 1
 "Cpanel::Easy::PHP5::Mbregex": 0
-"Cpanel::Easy::PHP5::Mbstring": 0
+"Cpanel::Easy::PHP5::Mbstring": 1
 "Cpanel::Easy::PHP5::Mcrypt": 1
 "Cpanel::Easy::PHP5::MemoryLimit": 0
 "Cpanel::Easy::PHP5::Mhash": 0
@@ -133,6 +135,7 @@
 "Cpanel::Easy::PHP5::Mysql": 1
 "Cpanel::Easy::PHP5::MysqlOfSystem": 0
 "Cpanel::Easy::PHP5::Mysqli": 1
+"Cpanel::Easy::PHP5::Opcache": 1
 "Cpanel::Easy::PHP5::Openssl": 1
 "Cpanel::Easy::PHP5::PDO": 1
 "Cpanel::Easy::PHP5::PDOMySQL": 1
@@ -142,7 +145,7 @@
 "Cpanel::Easy::PHP5::Phar": 0
 "Cpanel::Easy::PHP5::Pspell": 0
 "Cpanel::Easy::PHP5::SNMP": 0
-"Cpanel::Easy::PHP5::SOAP": 0
+"Cpanel::Easy::PHP5::SOAP": 1
 "Cpanel::Easy::PHP5::SQLite3": 0
 "Cpanel::Easy::PHP5::SafeMode": 0
 "Cpanel::Easy::PHP5::SafePHPCGI": 0
@@ -150,22 +153,22 @@
 "Cpanel::Easy::PHP5::Sockets": 1
 "Cpanel::Easy::PHP5::SysTimezone": 0
 "Cpanel::Easy::PHP5::TTF": 1
-"Cpanel::Easy::PHP5::Tidy": 0
+"Cpanel::Easy::PHP5::Tidy": 1
 "Cpanel::Easy::PHP5::Versioning": 0
 "Cpanel::Easy::PHP5::Wddx": 0
 "Cpanel::Easy::PHP5::WithoutIconv": 0
 "Cpanel::Easy::PHP5::XSL": 0
-"Cpanel::Easy::PHP5::XmlRPC": 0
+"Cpanel::Easy::PHP5::XmlRPC": 1
 "Cpanel::Easy::PHP5::ZendMultibyte": 0
-"Cpanel::Easy::PHP5::Zip": 0
+"Cpanel::Easy::PHP5::Zip": 1
 "Cpanel::Easy::PHP5::Zlib": 1
 "Cpanel::Easy::PHP5::cPPHPOpts": 0
 "Cpanel::Easy::PHPSuHosin": 0
 "Cpanel::Easy::SourceGuardian": 0
-"Cpanel::Easy::Tomcat::7_0": 0
+"Cpanel::Easy::Tomcat::7_0": 1
 "Cpanel::Easy::Xcache": 0
 "Cpanel::Easy::Zendopt": 0
 "_meta": 
-  "name": 'Apache 2.4.12 + PHP 5.5.22'
-  "note": 'Custom build for Apache 2.4.12 + PHP 5.5.22 (latest stable build as of 2015-Mar-11)'
-  "revision": 'VJrNZ_GV8BX55qDXzLMlocjJ0YbTk5xWusBpuPQFYY9j4Pwyv6W6Qc_1wyHq7m5O'
+  "name": 'Apache 2.4.17 + PHP 5.6.14 (Suhosin, Tomcat 7, MySQLi, mb_string, intl, OpCache, SOAP, HTML Tidy, XMLRPC, Zip)'
+  "note": 'Custom build for Apache 2.4.17 + PHP 5.6.14 (latest stable build as of 2015-Oct-16). Added Suhosin for PHP, Tomcat 7, MySQLi extension, and mb_string extension for PHP. Added intl, OpCache, SOAP, HTML Tidy, XMLRPC, and Zip extensions as required by Moodle 2.8+ and Wordpress 4.1.1+. Added Tomcat 7 as required by PHP-Java Bridge.'
+  "revision": 'bP_jTCEonk5z03KVeeQ58t7Vioay_0bzr9CR0O8b8WwiFdvL2noSkG8yf3YzTd87'
